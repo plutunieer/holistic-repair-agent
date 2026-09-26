@@ -1,0 +1,42 @@
+{
+  "id": "JJJJ-MM-TT-app-kurztitel",
+  "app": "",
+  "status": "offen",
+  "nutzerziel": "",
+  "fehler": {
+    "eingabe": "",
+    "schritte": [],
+    "sichtbares_ergebnis": "",
+    "erwartetes_ergebnis": "",
+    "belege": []
+  },
+  "ursache": {
+    "belegt": false,
+    "beschreibung": "",
+    "belege": [],
+    "offene_hypothesen": []
+  },
+  "betroffene_ablaeufe": [],
+  "anweisungen": [],
+  "korrektur": {
+    "beschreibung": "",
+    "vorbeugende_regel": "",
+    "umgesetzt": false,
+    "umsetzungsbelege": []
+  },
+  "nutzertest": {
+    "urspruenglicher_fall": null,
+    "verwandter_fall": null,
+    "normalfall": null,
+    "offene_nutzerschritte": []
+  },
+  "bestehende_ergebnisse": {
+    "erst_nach_test_gesichtet": false,
+    "sichtungsbeleg": "",
+    "noch_betroffen": [],
+    "nutzer_informiert": false,
+    "nachbearbeitung_gesondert": true
+  },
+  "naechste_anweisung": "",
+  "verlauf": []
+}

@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "belegter_stand": {"type": "string"},
+    "erneuter_fehler": {"type": "boolean"},
+    "ursache_belegt": {"type": "boolean"},
+    "ursache": {"type": "string"},
+    "betroffene_ablaeufe": {"type": "array", "items": {"type": "string"}},
+    "loesung": {"type": "string"},
+    "vorbeugende_regel": {"type": "string"},
+    "korrektur_umgesetzt": {"type": "boolean"},
+    "testanweisung": {"type": "string"},
+    "tests_bestanden": {"type": "boolean"},
+    "testnachweise": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "urspruenglicher_fall": {"type": "string"},
+        "verwandter_fall": {"type": "string"},
+        "normalfall": {"type": "string"}
+      },
+      "required": ["urspruenglicher_fall", "verwandter_fall", "normalfall"]
+    },
+    "offene_nutzerschritte": {"type": "array", "items": {"type": "string"}},
+    "bestehende_ergebnisse_gesichtet": {"type": "boolean"},
+    "bestehende_ergebnisse": {"type": "array", "items": {"type": "string"}},
+    "naechste_anweisung": {"type": "string"}
+  },
+  "required": [
+    "belegter_stand", "erneuter_fehler", "ursache_belegt", "ursache", "betroffene_ablaeufe",
+    "loesung", "vorbeugende_regel", "korrektur_umgesetzt", "testanweisung",
+    "tests_bestanden", "testnachweise", "offene_nutzerschritte",
+    "bestehende_ergebnisse_gesichtet", "bestehende_ergebnisse", "naechste_anweisung"
+  ]
+}
