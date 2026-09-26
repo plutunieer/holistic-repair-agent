@@ -2,7 +2,7 @@
 
 A local Codex adviser for fixing the shared cause of an app error. It guides the app operator; it does not change the app. Each error gets a persistent case record containing the report, confirmed cause, proposed repair, evidence, test results, and any affected existing results.
 
-The adviser gives all responses in English. The original visual requirements document, [`urs.html`](urs.html), remains in German.
+The adviser and its requirements documents are in English: [`urs.html`](urs.html) and [`URS.md`](URS.md).
 
 ## Run
 
